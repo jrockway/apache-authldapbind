@@ -1,0 +1,7 @@
+PerlAuthenHandler Apache::AuthLDAPBind
+
+<Location />
+   AuthName "Apache::Test"
+   AuthType Basic 
+   require valid-user
+</Location>
